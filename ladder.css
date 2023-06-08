@@ -11,10 +11,10 @@
 }
 
 @font-face {
-  font-family: "LXGWWenKai-Blod";
+  font-family: "LXGWWenKai-Bold";
   font-display: block;
   src: url("ladder/LXGWWenKai-Bold.ttf") format("truetype");
-  font-named-instance: "Blod";
+  font-named-instance: "Bold";
 }
 
 /* VARIABLES */
@@ -253,7 +253,7 @@ h5,
 h6 {
   font-size: inherit;
   font-weight: inherit;
-  font-family: "LXGWWenKai-Blod";
+  font-family: "LXGWWenKai-Bold";
 }
 
 /*
@@ -714,22 +714,22 @@ ol ol {
 /* blockquote */
 blockquote {
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   color: var(--tw-prose-quotes);
   border-left-width: 0.25rem;
   border-left-color: var(--tw-prose-quote-borders);
   quotes: "\201C""\201D""\2018""\2019";
   margin-top: 1.6em;
   margin-bottom: 1.6em;
-  padding-left: 1.0666667em;
+  padding-left: 0.5em;
 }
 
 blockquote p:first-of-type::before {
-  content: open-quote;
+  content: '「 ';
 }
 
 blockquote p:last-of-type::after {
-  content: close-quote;
+  content: ' 」';
 }
 
 /* hr */
